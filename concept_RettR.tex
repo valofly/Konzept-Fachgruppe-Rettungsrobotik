@@ -1,0 +1,42 @@
+\documentclass[11pt,a4paper]{scrartcl}
+\input{packages}
+\author{Daniel Stahlmann \ ValoFly GmbH}
+\title{Einsatz- und Ausbildungskonzept \\ \flq \specialistGroup{}\frq{}}
+\subtitle{im Landkreis \district}
+\begin{document}
+
+\input{definitions}
+
+\input{titlepage}					% Deckblatt
+
+\ihead{\begin{footnotesize}\unit{}\end{footnotesize}}
+\chead{
+\begin{textblock*}{5cm}(-2cm,23cm) % {block width} (coords) 
+   \begin{turn}{90} 
+	\begin{tiny}\texttt{\textcolor{lightgray}{\docVersion{}}}\end{tiny}
+	\end{turn}
+\end{textblock*}
+}
+\ohead{\begin{footnotesize}\platoon{} | \specialistGroup{}\end{footnotesize}}
+\ifoot{}
+\cfoot{\includegraphics[width=1cm]{images/logo_Landkreis.pdf}}
+
+\tableofcontents
+\newpage
+
+\ofoot{\begin{small}\texttt{\pagemark{}\,|\,\pageref{LastPage}}\end{small}}
+
+\setcounter{page}{1}
+
+\input{chapter/01_basics}			% Grundlagen
+\input{chapter/02_purpose}			% Aufgaben
+\input{chapter/03_organization}		% Aufbau und Gliederung
+\input{chapter/04_alerting}			% Alarmierung
+\input{chapter/05_equipment}		% Ausrüstung
+\input{chapter/06_training}			% Ausbildung
+\input{chapter/07_documentation}	% Dokumentation
+\input{chapter/08_miscellaneous}	% Sonstiges
+
+\input{abbreviation_list}
+
+\end{document}
