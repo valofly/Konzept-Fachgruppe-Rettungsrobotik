@@ -86,3 +86,6 @@ Die Anmerkung kann anschließend von allen Interessierten direkt am Projekt disk
 
 ### Aktiv mitwirken
 Änderungen können direkt erstellt und eingereicht werden. Nach einer Prüfung und (evtl.) Diskussion kann eine Änderung direkt in das Projekt zurückfließen, sodass alle davon profitieren.
+
+## Vorschau zum Konzept
+Das Konzept kann unter https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:1cf34671-1c3f-365d-9ab3-e3df6bd66aea eingesehen werden. Kommentare sind möglich, werden jedoch nicht überwacht.
