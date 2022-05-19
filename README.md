@@ -89,3 +89,6 @@ Die Anmerkung kann anschließend von allen Interessierten direkt am Projekt disk
 
 ## Vorschau zum Konzept
 Das Konzept kann unter https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:1cf34671-1c3f-365d-9ab3-e3df6bd66aea eingesehen werden. Kommentare sind möglich, werden jedoch nicht überwacht.
+
+## Transparenz und Offenlegung
+Das initiale Konzept wurde von Daniel Stahlmann auf Grundlage der Arbeiten von Frank Potthast sowie den Veröffentlichungen des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe erarbeitet. Das Konzept wird zur Nutzung in der von Daniel geführten Fachgruppe Rettungsrobotik weiterentwickelt. Die Veröffentlichung erfolgt an dieser Stelle, da die ValoFly GmbH Arbeitszeit zum Erarbeiten des Konzeptes zur Verfügung stellt und das Detailwissen zu verschiedenen UAV-Modellen und für die Arbeit notwendige Branchenkenntnisse möglich macht.
