@@ -22,7 +22,7 @@ Um das PDF zu generieren, muss die Datei `concept_RettR.tex` mit dem LaTeX-Edito
 
 **Hinweis:** Teilweise muss das Dokument zweimal erstellt werden, um alle Querverweise zu setzen. Ob dies notwendig ist, kann z. B. am Fehlen des Inhaltsverzeichnisses erkannt werden.
 
-## Konzept auf eure Einheit anpassen (einfach)
+## Konzept auf eigene Einheit anpassen (einfach)
 Zum Anpassen auf eure Einheit muss die Datei `definitions.tex` verändert werden. Diese enthält Variablen, die das Dokument auf euch anpassen. Nach der Anpassung der Variablen kann `concept_RettR.tex` neu erstellt werden. Das PDF enthält automatisch eure Anpassungen.
 
 | Variable | Parameter | Beschreibung / Anmerkung
@@ -47,6 +47,7 @@ Zum Anpassen auf eure Einheit muss die Datei `definitions.tex` verändert werden
 | `operatorCity` | UAS-Betreiber Stadt | Adresse des UAS-Betreibers |
 | `operatorID` | UAS-Betreiber ID | Durch LBA zugewiesene UAS-Betreiber ID |
 | `callee` | Name für generischen Begriff "Einheit" im Text. | Im Textfluss wird dann von "Einheit", "Fachgruppe", "Drohneneinheit", … gesprochen. |
+| `districtImage` | Dateiname.Dateiformat | Dateiname mit Dateiendung (`PDF`, `EPS`, `PNG`, `JPG`, und `TIF`) des Logos vom Landkreis. |
 | `FwDVI` | FwDV 1 | Link auf die Feuerwehrdienstvorschrift 1 entsprechend des Bundeslandes |
 | `FwDVIII` | FwDV 3 | Link auf die Feuerwehrdienstvorschrift 3 entsprechend des Bundeslandes |
 | `FwDVC` | FwDV 100 | Link auf die Feuerwehrdienstvorschrift 100 entsprechend des Bundeslandes |
@@ -54,11 +55,7 @@ Zum Anpassen auf eure Einheit muss die Datei `definitions.tex` verändert werden
 | `FwDDCCC` | FwDV 800 | Link auf die Feuerwehrdienstvorschrift 800 entsprechend des Bundeslandes |
 | `FwDDCCCX` | FwDV 810 | Link auf die Feuerwehrdienstvorschrift 810 entsprechend des Bundeslandes |
 
-Das Wappen eures Landkreises müsst ihr als `logo_Landkreis` in einem der unterstützen Formate im Ordner `images` ablegen. LaTeX unterstützt nativ nur die Bildformate `PS`, `EPS`, `PDF`, `GIF`, `JPG`, und `TIF`.
-
-TODO Derzeit funktionieren nur Logos im `PDF` Format. Wird noch angepasst.
-
-## Konzept auf eure Einheit anpassen (komplex)
+## Konzept auf eigene Einheit anpassen (komplex)
 Das Dokument besteht im Wesentlichen aus der `concept_RettR.tex` sowie den Dateien für die einzelnen Kapitel. Diese sind im Ordner `chapter` abgelegt. In den einzelnen Kapiteln
 
  1. `chapter`/`01_basics` (Grundlagen)
@@ -72,23 +69,16 @@ Das Dokument besteht im Wesentlichen aus der `concept_RettR.tex` sowie den Datei
 
 findet ihr die Inhalte des Konzeptes. Sollen nun Inhalte umgeschrieben, hinzugefügt oder gelöscht werden, kann dies einfach in den Dateien erfolgen. Nach dem Anpassen muss das Dokument zur besseren Lesbarkeit wieder als PDF erzeugt werden.
 
-**Hinweis:** Zum erneuten Erzeugen muss das bereits erzeugte PDF geschlossen sein, da dieses überschrieben wird.
-
 Die Dateien `abbreviation_list.tex`, `packages.tex` und `titlepage.tex` enthalten i. d. R. das Abkürzungsverzeichnis, die benötigten Pakete zum Erstellen des Dokumentes sowie die Titelseite. Ändert diese Dateien, insbesondere die `packages.tex` nur, wenn ihr euch auskennt.
 
 ## Änderungen und Verbesserungen
 Es gibt mehrere Möglichkeiten an der Verbesserung des Konzeptes mitzuwirken.
 
 ### Issue erstellen
-Ihr könnt über https://github.com/valofly/Konzept-Fachgruppe-Rettungsrobotik/issues eine Anmerkung erstellen. Hierzu wird ein GitHub-Account benötigt.
-
-Die Anmerkung kann anschließend von allen Interessierten direkt am Projekt diskutiert werden. Wichtig: Sachlich bleiben.
+Es kann über https://github.com/valofly/Konzept-Fachgruppe-Rettungsrobotik/issues eine Anmerkung erstellt werden. Hierzu wird ein GitHub-Account benötigt.
 
 ### Aktiv mitwirken
 Änderungen können direkt erstellt und eingereicht werden. Nach einer Prüfung und (evtl.) Diskussion kann eine Änderung direkt in das Projekt zurückfließen, sodass alle davon profitieren.
 
-## Vorschau zum Konzept
-Das Konzept kann unter https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:1cf34671-1c3f-365d-9ab3-e3df6bd66aea eingesehen werden. Kommentare sind möglich, werden jedoch nicht überwacht.
-
 ## Transparenz und Offenlegung
-Das initiale Konzept wurde von Daniel Stahlmann auf Grundlage der Arbeiten von Frank Potthast sowie den Veröffentlichungen des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe erarbeitet. Das Konzept wird zur Nutzung in der von Daniel geführten Fachgruppe Rettungsrobotik weiterentwickelt. Die Veröffentlichung erfolgt an dieser Stelle, da die ValoFly GmbH Arbeitszeit zum Erarbeiten des Konzeptes zur Verfügung stellt und das Detailwissen zu verschiedenen UAV-Modellen und für die Arbeit notwendige Branchenkenntnisse möglich macht.
+Das initiale Konzept wurde auf Grundlage der Arbeiten von Frank Potthast sowie den Veröffentlichungen des Bundesamtes für Bevölkerungsschutz und Katastrophenhilfe erarbeitet. Das Konzept wird zur Nutzung in der Fachgruppe Rettungsrobotik im Landkreis Northeim weiterentwickelt. Die ValoFly GmbH unterstützt den Landkreis mit Fachwissen und Arbeitzeit, weshalb das Konzept an dieser Stelle veröffentlicht ist.
